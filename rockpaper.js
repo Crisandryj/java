@@ -57,34 +57,15 @@ function rps(playerSelection,computerSelection){
     }
 
 function game() {
-
+for (let i = 0; i<5; i++){
         let result = round()
         if(result==='player') {player+=1} 
         else if ('computer') {computer+=1}
         else {draw+=1}
-
-        result = round()
-        if(result==='player') {player+=1} 
-        else if ('computer') {computer+=1}
-        else {draw+=1}
-
-        result = round()
-        if(result==='player') {player+=1} 
-        else if ('computer') {computer+=1}
-        else {draw+=1}
-
-        result = round()
-        if(result==='player') {player+=1} 
-        else if ('computer') {computer+=1}
-        else {draw+=1}
-
-        result = round()
-        if(result==='player') {player+=1} 
-        else if ('computer') {computer+=1}
-        else {draw+=1}
-        
+}
+             
   return `Computer: ${computer} Player ${player} Draws ${draw}`
     }
 
 
-   
+  
