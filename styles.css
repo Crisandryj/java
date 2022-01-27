@@ -1,0 +1,17 @@
+.btn{
+    color: blue; 
+    background: black'; 
+}
+
+.results{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.content{
+    color:black;
+    background-color: red;
+}
